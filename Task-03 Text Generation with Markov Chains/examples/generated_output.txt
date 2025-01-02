@@ -1,5 +1,0 @@
-Generated using bigram model:
-Once upon a time, there was a little village nestled between the mountains. The villagers were kind and hardworking. They often gathered around the town square.
-
-Generated using trigram model:
-Once upon a time, there was a little village. The villagers were kind and hardworking. They often gathered around the town square to share stories.
