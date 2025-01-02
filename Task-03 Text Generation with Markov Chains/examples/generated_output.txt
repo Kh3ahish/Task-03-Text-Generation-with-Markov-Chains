@@ -1,0 +1,7 @@
+Input Dataset: "The quick brown fox jumps over the lazy dog."
+N-gram Size: Bigram (2)
+Generated Text: "The quick brown fox jumps over the lazy dog. The quick brown fox."
+
+Input Dataset: "Alice was beginning to get very tired of sitting by her sister on the bank."
+N-gram Size: Trigram (3)
+Generated Text: "Alice was beginning to get very tired of sitting by her sister."

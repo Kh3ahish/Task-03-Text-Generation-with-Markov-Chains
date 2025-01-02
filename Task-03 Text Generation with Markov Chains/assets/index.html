@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markov Chain Text Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Markov Chain Text Generator</h1>
+
+        <!-- Input for the dataset -->
+        <label for="dataset">Enter your dataset (text):</label>
+        <textarea id="dataset" rows="5" placeholder="Enter your text here..."></textarea>
+
+        <!-- Dropdown to select n-gram size -->
+        <label for="ngram">Choose n-gram size:</label>
+        <select id="ngram">
+            <option value="1">Unigram (1)</option>
+            <option value="2">Bigram (2)</option>
+            <option value="3">Trigram (3)</option>
+        </select>
+
+        <!-- Input for the number of words to generate -->
+        <label for="length">Number of words to generate:</label>
+        <input type="number" id="length" placeholder="Enter number of words" min="1">
+
+        <!-- Button to trigger text generation -->
+        <div class="button-container">
+            <img src="https://i.gifer.com/origin/04/04dfefa22f19c25db36fc502872405b3_w200.gif" alt="GIF Animation" class="gif">
+            <button onclick="generateText()">
+                <span>Generate Text</span>
+                <div class="effect"></div>
+            </button>
+        </div>
+
+        <!-- Section to display the generated text -->
+        <div class="output" id="output" style="display: none;">
+            <h3>Generated Text:</h3>
+            <p id="generatedText"></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>Made by Khwahish Kushwah</span> <span class="heart">❤️</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
